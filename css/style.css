@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+body{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    background-color: #492f22;
+    color: white;
+    height: 80px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #fdc100;
+}
+.logo{
+    height: 150px;
+    margin-top: 50px;
+    margin-left: -20px;
+}
+.name{
+    font-size: 20px;
+    margin-left: -50px;
+}
+.link{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+.link:hover{
+    border-bottom: 2px solid white;
+    transition: 0.5s;
+}
+.links{
+    margin-left: 500px;
+}
+.header{
+    margin-top: 10px;
+    background-color: #492f22;
+    padding: 10px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.head-text{
+    margin: 0 50px;
+    color: #fdc100;
+}
+.tagline{
+    font-size: 40px;
+    width: 300px;
+}
+.tag-para{
+    font-size: 15px;
+}
+.main-img{
+    height: 400px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+.p-img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border: 2px solid #fdc100;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.sp-txt{
+    color: #492f22;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.sp-card{
+    background-color: #fdc100;
+    width: 400px;
+    padding: 8px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px 2px black;
+    text-align: center;
+}
+.card-1{
+    transform: rotate(-2deg);
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.card-2{
+    transform: rotate(2deg);
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.sp-con{
+    display: flex;
+    align-items: center;
+}
+.sp-icon-1{
+    margin-left: 500px;
+}
+.sp-icon-2{
+    margin-left: 100px;
+}
+.prod-img{
+    display: block;
+    margin: 10px auto;
+    
+}
+.btn-view{
+    padding: 10px;
+    background-color: #492f22;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fdc100;
+    font-weight: bold;
+}
+.txt-none{
+    text-decoration: none;
+    color: #fdc100;
+}
+.footer{
+    background-color: #492f22;
+    color: #fdc100;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.locate{
+    width: 200px;
+}
+.form{
+    width: 300px;
+}
+.input{
+    padding: 10px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 10px 0;
+}
+.form-name{
+    width: 100px;
+}
+.btn-sub{
+    padding: 10px;
+    background-color: #fdc100;
+    border: none;
+    width: 100px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 5px;
+    color: #492f22;
+    font-weight: bold;
+}

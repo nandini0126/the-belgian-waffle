@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <img src="./img/belgian-waffle-logo.png" class="logo">
+        <span class="name">THE Belgian waffle</span>
+        <div class="links">
+            <a href="index.html" class="link">Home</a>
+            <a href="./pages/menu.html" class="link">Menu</a>
+            <a href="./pages/about.html" class="link">About us</a>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="head">
+            <div class="head-text">
+                <h1 class="tagline">One Bite and You'll Overrule All Objections.</h1>
+                <span class="tag-para">‘A meal is never complete without a dessert,’ is a well-known proverb. Let your inner foodie explore the brand-new waffle universe at your personal Waffle World. These days, waffles are the popular temptation in town. People all throughout the world have a long-standing desire to experiment with new things and lose themselves in flavors and tastes that are unique and exotic.</span>
+            </div>
+            <div>
+                <img src="./img/main.jpg" class="main-img" id="main-img">
+            </div>
+        </div>
+        <div>
+                <img src="./img/main.jpg" class="p-img" onclick="changimg('./img/main.jpg')">
+                <img src="./img/1.jpg" class="p-img" onclick="changimg('./img/1.jpg')">
+                <img src="./img/2.jpg" class="p-img" onclick="changimg('./img/2.jpg')">
+                <img src="./img/3.jpg" class="p-img" onclick="changimg('./img/3.jpg')">
+                <img src="./img/4.jpg" class="p-img" onclick="changimg('./img/4.jpg')">
+        </div>
+    </div>
+    <div>
+        <h1 class="sp-txt">OUR SPECIALITY</h1>
+
+        <div class="sp-con">
+            <img src="./icon/waffle.png" height="100px" class="sp-icon-1">
+            <div class="sp-card card-1">
+                <h2 style="color: #4bc2d4;">Crispiness</h2>
+                <p>We consistently deliver freshly baked, delicious, crispy yet soft waffle with an alluring aroma and a perfect taste!</p>
+            </div>
+        </div>
+        <div class="sp-con">
+            <img src="./icon/strawberry.png" height="100px" class="sp-icon-2">
+            <div class="sp-card card-2">
+                <h2 style="color: #4bc2d4;">Our Secret</h2>
+                <p>A well researched formulation continuous innovation ensures a superlative product experience.</p>
+            </div>
+        </div>
+        <div class="sp-con">
+            <img src="./icon/delivery.png" height="100px" class="sp-icon-1">
+            <div class="sp-card card-1">
+                <h2 style="color: #4bc2d4;">On-the-go Treat</h2>
+                <p>Redefining the way waffles are delivered from a fine dining, sit down experience to an on the go treat. Convenient, portable and delicious.</p>
+            </div>
+        </div>
+        <div class="sp-con">
+            <img src="./icon/mixing.png" height="100px" class="sp-icon-2">
+            <div class="sp-card card-2">
+                <h2 style="color: #4bc2d4;">Eggless Batter</h2>
+                <p>Meets the need of a vast majority of people that are vegetarian</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="sp-txt">OUR PRODUCTS</h1>
+        <img src="./img/Website-Product-images.png" width="900px" class="prod-img">
+        <button class="btn-view">View All</button>
+    </div>
+
+
+    <div class="footer">
+        <div>
+            <p>Contact us</p>
+            <p>For general queries:</p>
+            <i class="fa-solid fa-envelope" style="color: #fdc100;"></i>
+            <a href="mailto:nandiniyamale26@gmail.com" class="txt-none">thebelgian@gmail.com</a>
+
+            <div>
+                <p style="margin-top: 50px;">Follow us</p>
+                <a href="https://www.instagram.com/" target="_blank" class="txt-none">
+                <i class="fa-brands fa-instagram footer-container-info social-icon" style="color: #fdc100; margin: 0 5px;"></i></a>
+                <a href="https://www.facebook.com" target="_blank" class="txt-none">
+                <i class="fa-brands fa-facebook footer-container-info social-icon" style="color: #fdc100; margin: 0 5px;" ></i></a>
+                <a href="https://www.youtube.com/" target="_blank" class="txt-none">
+                <i class="fa-brands fa-youtube footer-container-info social-icon" style="color: #fdc100; margin: 0 5px;"></i></a>
+                <a href="https://github.com/" target="_blank" class="txt-none">
+                <i class="fa-brands fa-twitter footer-container-info social-icon" style="color: #fdc100; margin: 0 5px;"></i>
+                <a href="https://twitter.com/" target="_blank" class="txt-none"></i></a>
+            </div>
+        </div>
+
+        
+
+        <div class="quick-links">
+            <p>Quick Links</p>
+            <a href="./index.html" class="txt-none">Home</a><br><br>
+            <a href="./pages/menu.html" class="txt-none">Menu</a><br><br>
+            <a href="./pages/about.html" class="txt-none">About us</a>
+        </div>
+
+        <div class="locate">
+            <p>Locate Us</p>
+            <i class="fa-solid fa-location-dot footer-container-info" style="color: #fdc100"></i>
+            <a href="https://maps.app.goo.gl/gzSWcUnncSQc5FNT6" class="txt-none">Railway Gate, Upper Gr. Floor, Shop No 06, S. No. 44h. No. A Fortune Plaza, near Sayyad Nagar, Hadapsar, Pune, Maharashtra 411028</a>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="Full Name" class="input form-name">
+            <input type="email" placeholder="Email Address" class="input form-mail">
+            <input type="number" placeholder="Mobile" class="input"><br>
+            <textarea rows="8" cols="40" class="input">Message</textarea>
+            <button class="btn-sub">Submit</button>
+        </div>
+        
+    </div>
+
+    
+    <script>
+        function changimg(img){
+            const mainImg=document.getElementById('main-img');
+            mainImg.src=img;
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/38442ccd2f.js" crossorigin="anonymous"></script>
+</body>
+</html>
