@@ -132,6 +132,7 @@ body{
     border-radius: 10px;
     color: #fdc100;
     font-weight: bold;
+    cursor: pointer;
 }
 .txt-none{
     text-decoration: none;
