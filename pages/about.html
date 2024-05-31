@@ -47,27 +47,27 @@
                     with international experience.</p>
             </div>
             <div class="spec">
-                <div class="spec-div">
+                <div class="spec-div" onclick="toggleDesc2()">
                     <h3 class="spec-title">Designed by Food Stylist</h3>
-                    <img src="../icon/plus.png" class="plus-icon">
+                    <img src="../icon/plus.png" class="plus-icon" id="plus-icon2">
                 </div>
                 <p id="desc2">All of our dishes are created by renowned food stylists. You can't stop yourself from
                     taking
                     pictures.</p>
             </div>
             <div class="spec">
-                <div  class="spec-div">
+                <div  class="spec-div" onclick="toggleDesc3()">
                     <h3 class="spec-title">Not Just Waffle Sandwiches</h3>
-                    <img src="../icon/plus.png" class="plus-icon">
+                    <img src="../icon/plus.png" class="plus-icon" id="plus-icon3">
                 </div>
                 <p id="desc3">Unlike other waffle brands which serves only waffle sandwiches, Waffle World serves
                     authentic Belgian
                     Waffles, Exotic Hong Kong waffles, Unique Savoury Waffles and pocket friendly Candy Waffles.</p>
             </div>
             <div class="spec">
-                <div class="spec-div">
+                <div class="spec-div" onclick="toggleDesc4()">
                     <h3 class="spec-title">Five Flavors</h3>
-                    <img src="../icon/plus.png" class="plus-icon">
+                    <img src="../icon/plus.png" class="plus-icon" id="plus-icon4">
                 </div>
                 <p id="desc4">Waffle World serves waffles in five trending flavours such as Vanilla, Brownie, Red
                     Velvet, Charcoal
@@ -77,30 +77,65 @@
         </div>
     </div>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const desc1 = document.getElementById("desc1");
-            const desc2 = document.getElementById("desc2");
-            const desc3 = document.getElementById("desc3");
-            const desc4 = document.getElementById("desc4");
-            desc1.style.display = 'none';
-            desc2.style.display = 'none';
-            desc3.style.display = 'none';
-            desc4.style.display = 'none';
-        })
+    <div>
+        <h1 class="sp-txt">Gallery</h1>
+        
+        <img src="../img/shop2.jpg" class="img" style="margin-left: 70px;">
+        <img src="../img/shop3.jpg" class="img">
+        <img src="../img/shop4.jpg" class="img">
+        <img src="../img/shop5.jpg" class="img img2" style="margin-left: 120px;">
+        <img src="../img/shop6.jpg" class="img img2">
+    </div>
 
-        function toggleDesc() {
-            const divElement = document.getElementById('desc1');
-            if (divElement.style.display == 'none') {
-                divElement.style.display = '';
-                document.getElementById("plus-icon").src="../icon/minus.png"
-            }
-            else {
-                divElement.style.display = 'none';
-                document.getElementById("plus-icon").src="../icon/plus.png"
-            }
-        }
-    </script>
+
+    <div class="footer" style="margin-top: 100px;">
+        <div>
+            <p>Contact us</p>
+            <p>For general queries:</p>
+            <i class="fa-solid fa-envelope" style="color: #fdc100;"></i>
+            <a href="mailto:nandiniyamale26@gmail.com" class="txt-none">thebelgian@gmail.com</a>
+
+            <div>
+                <p style="margin-top: 50px;">Follow us</p>
+                <a href="https://www.instagram.com/" target="_blank" class="txt-none">
+                <i class="fa-brands fa-instagram footer-container-info social-icon" style="color: #fdc100; margin: 0 5px;"></i></a>
+                <a href="https://www.facebook.com" target="_blank" class="txt-none">
+                <i class="fa-brands fa-facebook footer-container-info social-icon" style="color: #fdc100; margin: 0 5px;" ></i></a>
+                <a href="https://www.youtube.com/" target="_blank" class="txt-none">
+                <i class="fa-brands fa-youtube footer-container-info social-icon" style="color: #fdc100; margin: 0 5px;"></i></a>
+                <a href="https://github.com/" target="_blank" class="txt-none">
+                <i class="fa-brands fa-twitter footer-container-info social-icon" style="color: #fdc100; margin: 0 5px;"></i>
+                <a href="https://twitter.com/" target="_blank" class="txt-none"></i></a>
+            </div>
+        </div>
+
+        
+
+        <div class="quick-links">
+            <p>Quick Links</p>
+            <a href="../index.html" class="txt-none">Home</a><br><br>
+            <a href="../pages/menu.html" class="txt-none">Menu</a><br><br>
+            <a href="../pages/about.html" class="txt-none">About us</a>
+        </div>
+
+        <div class="locate">
+            <p>Locate Us</p>
+            <i class="fa-solid fa-location-dot footer-container-info" style="color: #fdc100"></i>
+            <a href="https://maps.app.goo.gl/gzSWcUnncSQc5FNT6" class="txt-none">Railway Gate, Upper Gr. Floor, Shop No 06, S. No. 44h. No. A Fortune Plaza, near Sayyad Nagar, Hadapsar, Pune, Maharashtra 411028</a>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="Full Name" class="input form-name">
+            <input type="email" placeholder="Email Address" class="input form-mail">
+            <input type="number" placeholder="Mobile" class="input"><br>
+            <textarea rows="8" cols="40" class="input">Message</textarea>
+            <button class="btn-sub">Submit</button>
+        </div>
+        
+    </div>
+
+    <script src="../js/about.js"></script>
+    <script src="https://kit.fontawesome.com/38442ccd2f.js" crossorigin="anonymous"></script>
 </body>
 
 
