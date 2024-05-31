@@ -1,0 +1,56 @@
+.about-heading{
+    text-align: center;
+    color: #492f22;
+    font-size: 45px;
+}
+.about-top{
+    display: flex;
+    align-items: center;
+}
+.shop-img{
+    width: 50%;
+}
+.mission{
+    padding: 20px;
+    background-color: #fdc100;
+    width: 400px;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 0 50px 0px 50px;
+    box-shadow: 0 0 20px 5px #492f22;
+}
+.mission-h{
+    text-align: center;
+    color: #492f22;
+    font-size: 35px;
+}
+.mission-para{
+    color: #492f22;
+    font-size: 20px;
+}
+.plus-icon{
+    height: 30px;
+}
+.speciality{
+    display: flex;
+    margin-top: 50px;
+}
+.spec-head{
+    width: 50%;
+    font-size: 70px;
+    text-align: center;
+    color: #492f22;
+}
+.spec{
+    background-color: #fdc100;
+    margin: 20px 40px;
+    padding: 15px;
+    width: 500px;
+    border-radius: 20px;
+}
+.spec-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}

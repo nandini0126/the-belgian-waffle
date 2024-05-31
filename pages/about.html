@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/about.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <img src="../img/belgian-waffle-logo.png" class="logo">
+        <span class="name">THE Belgian waffle</span>
+        <div class="links">
+            <a href="../index.html" class="link">Home</a>
+            <a href="./menu.html" class="link">Menu</a>
+            <a href="./about.html" class="link">About us</a>
+        </div>
+    </div>
+    <h1 class="about-heading">About Us</h1>
+
+    <div class="about-top">
+        <img src="../img/shop.jpg" class="shop-img">
+
+        <div class="mission">
+            <h2 class="mission-h">Our Mission</span></h2>
+            <p class="mission-para">The belgian waffle wants to bring the wonder of our exotic, one-of-a-kind recipes,
+                amazing flavour, and unmatched quality to even small towns. We welcome company owners from all around
+                the country to join forces with us in the most lucrative venture of recent times, which has enormous
+                potential and an emerging market.</p>
+        </div>
+    </div>
+
+    <div class="speciality">
+        <h1 class="spec-head">Our <br>Speciality</h1>
+
+        <div>
+            <div class="spec">
+                <div class="spec-div" onclick="toggleDesc()">
+                    <h3 class="spec-title">Recipe by Reputed Chefs</h3>
+                    <img src="../icon/plus.png" class="plus-icon" id="plus-icon">
+                </div>
+                <p id="desc1">We have our own premix with a distinct formula. All of the recipes were created by
+                    renowned chefs
+                    with international experience.</p>
+            </div>
+            <div class="spec">
+                <div class="spec-div">
+                    <h3 class="spec-title">Designed by Food Stylist</h3>
+                    <img src="../icon/plus.png" class="plus-icon">
+                </div>
+                <p id="desc2">All of our dishes are created by renowned food stylists. You can't stop yourself from
+                    taking
+                    pictures.</p>
+            </div>
+            <div class="spec">
+                <div  class="spec-div">
+                    <h3 class="spec-title">Not Just Waffle Sandwiches</h3>
+                    <img src="../icon/plus.png" class="plus-icon">
+                </div>
+                <p id="desc3">Unlike other waffle brands which serves only waffle sandwiches, Waffle World serves
+                    authentic Belgian
+                    Waffles, Exotic Hong Kong waffles, Unique Savoury Waffles and pocket friendly Candy Waffles.</p>
+            </div>
+            <div class="spec">
+                <div class="spec-div">
+                    <h3 class="spec-title">Five Flavors</h3>
+                    <img src="../icon/plus.png" class="plus-icon">
+                </div>
+                <p id="desc4">Waffle World serves waffles in five trending flavours such as Vanilla, Brownie, Red
+                    Velvet, Charcoal
+                    and Green Matcha</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const desc1 = document.getElementById("desc1");
+            const desc2 = document.getElementById("desc2");
+            const desc3 = document.getElementById("desc3");
+            const desc4 = document.getElementById("desc4");
+            desc1.style.display = 'none';
+            desc2.style.display = 'none';
+            desc3.style.display = 'none';
+            desc4.style.display = 'none';
+        })
+
+        function toggleDesc() {
+            const divElement = document.getElementById('desc1');
+            if (divElement.style.display == 'none') {
+                divElement.style.display = '';
+                document.getElementById("plus-icon").src="../icon/minus.png"
+            }
+            else {
+                divElement.style.display = 'none';
+                document.getElementById("plus-icon").src="../icon/plus.png"
+            }
+        }
+    </script>
+</body>
+
+
+</html>
